@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: rgb(156, 33, 33) ;
+    margin: 0;
+}
+
+header, footer{
+    background-color: chocolate;
+    display: flex;
+    background-color: rgba(46, 114, 114, 0.3);
+}
+
+body{
+    background-color: rgb(89, 89, 212);
+    margin: 0 40px;
+    background-image: url(Images/Fondo\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    background-color: rgba(230, 200, 164, 0.3);
+    height: 100px;
+    padding: 15px;
+}
+
+nav a{
+    background-color: blue;
+    color: azure;
+    border-radius: 25px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 5px;
+    
+}
+
+nav a:hover{
+    background-color: gray;
+}
+
+main{
+   /* background-color: aqua;*/
+    /*height: 100vh;*/
+}
+
+img{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    /*height: 150px;*/
+}
+
+.izquierda{
+    background-color: chartreuse;
+    width: 40%;
+}
+
+.derecha{
+    background-color: rgb(95, 139, 51);
+    width: 60%;
+}
+
+.logo{
+    margin-right: 20px;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 80px;
+}
+
+.galeria{
+    background-color: rgba(39, 34, 51, 0.3);
+    margin: 15px 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.galeria img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    border: 2px red;
+}
+
+.galeria .diferente{
+    border-radius: 50%;
+    border: 3px dotted blue;
+}
